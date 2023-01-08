@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1757eb08-fe19-47a2-8eb6-ec9a90fb4ad8" name="remote_server_guohan">
+        <fileTransfer accessType="SFTP" host="192.168.3.170" port="22" sshConfigId="763dfae2-7b63-4f7a-8f33-ea44dbb79c91" sshConfig="junkwarrior@192.168.3.170:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

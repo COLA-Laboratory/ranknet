@@ -1,0 +1,5 @@
+problem_name:mdtlz3
+population_number:300
+variable_number:10
+objective_number:3
+max_evaluation:90000

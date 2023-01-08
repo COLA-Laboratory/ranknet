@@ -1,0 +1,5 @@
+problem_name:dtlz6
+population_number:224
+variable_number:17
+objective_number:8
+max_evaluation:291200

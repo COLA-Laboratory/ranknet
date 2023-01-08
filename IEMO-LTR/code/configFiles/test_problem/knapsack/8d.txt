@@ -1,0 +1,5 @@
+problem_name:knapsack
+population_number:200
+variable_number:500
+objective_number:8
+max_evaluation:2000

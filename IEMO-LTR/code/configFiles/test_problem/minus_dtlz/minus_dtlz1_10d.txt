@@ -1,0 +1,5 @@
+problem_name:minus_dtlz1
+population_number:288
+variable_number:14
+objective_number:10
+max_evaluation:259200

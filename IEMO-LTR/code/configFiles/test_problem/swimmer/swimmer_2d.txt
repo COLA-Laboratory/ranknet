@@ -1,0 +1,5 @@
+problem_name:swimmer
+population_number:100
+variable_number:18
+objective_number:2
+max_evaluation:30000

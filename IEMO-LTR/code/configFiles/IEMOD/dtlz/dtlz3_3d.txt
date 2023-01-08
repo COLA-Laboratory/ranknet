@@ -1,0 +1,6 @@
+algorithm_name:iemod
+problem_name:dtlz3
+population_number:64
+variable_number:12
+objective_number:3
+max_evaluation:67200

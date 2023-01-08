@@ -1,0 +1,5 @@
+problem_name:dtlz2
+population_number:608
+variable_number:29
+objective_number:20
+max_evaluation:668800

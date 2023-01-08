@@ -1,0 +1,3 @@
+/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/CMakeFiles/EMOC.dir

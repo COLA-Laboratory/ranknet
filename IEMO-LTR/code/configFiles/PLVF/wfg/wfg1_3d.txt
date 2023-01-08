@@ -1,0 +1,12 @@
+algorithm_name:plvf
+problem_name:wfg1
+population_number:100
+variable_number:20
+objective_number:3
+max_evaluation:2500000
+askTime:10
+inquiriesNum:10
+output_interval:5
+runs_number:1
+open_multithread:1
+thread_number:1

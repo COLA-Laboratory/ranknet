@@ -1,0 +1,12 @@
+algorithm_name:iemod
+problem_name:minus_dtlz1
+population_number:288
+variable_number:14
+objective_number:10
+max_evaluation:259200
+askTime:10
+inquiriesNum:1
+output_interval:5
+runs_number:21
+open_multithread:1
+thread_number:21

@@ -1,0 +1,5 @@
+problem_name:dtlz5
+population_number:64
+variable_number:12
+objective_number:3
+max_evaluation:16000

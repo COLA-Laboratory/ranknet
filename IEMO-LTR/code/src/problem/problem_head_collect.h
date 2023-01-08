@@ -1,0 +1,9 @@
+#pragma once
+#include "problem/zdt.h"
+#include "problem/dtlz.h"
+#include "problem/uf.h"
+#include "problem/wfg.h"
+#include "problem/mdtlz.h"
+#include "problem/minus_dtlz.h"
+#include "problem/correlated_500_knapsack.h"
+#include "problem/swimmer.h"

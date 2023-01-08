@@ -1,0 +1,12 @@
+algorithm_name:nsga2_ltr
+problem_name:mdtlz4
+population_number:400
+variable_number:12
+objective_number:5
+max_evaluation:160000
+elicitationInterval:10
+inquiriesNum:10
+output_interval:5
+runs_number:21
+open_multithread:1
+thread_number:21

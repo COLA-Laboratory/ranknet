@@ -1,0 +1,13 @@
+algorithm_name:r2_ibea_ltr
+problem_name:minus_dtlz2
+population_number:288
+variable_number:19
+objective_number:10
+max_evaluation:172800
+elicitationInterval:10
+stepSize:0.2
+inquiriesNum:10
+output_interval:5
+runs_number:5
+open_multithread:1
+thread_number:5

@@ -1,0 +1,5 @@
+problem_name:wfg3
+population_number:128
+variable_number:28
+objective_number:5
+max_evaluation:147200

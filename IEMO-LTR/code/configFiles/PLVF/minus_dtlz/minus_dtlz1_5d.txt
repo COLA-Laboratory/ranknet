@@ -1,0 +1,13 @@
+algorithm_name:plvf
+problem_name:minus_dtlz1
+population_number:128
+variable_number:9
+objective_number:5
+max_evaluation:83200
+elicitationInterval:25
+stepSize:0.5
+inquiriesNum:10
+output_interval:5
+runs_number:21
+open_multithread:1
+thread_number:21

@@ -1,0 +1,5 @@
+problem_name:zdt1
+population_number:100
+variable_number:30
+objective_number:2
+max_evaluation:25000

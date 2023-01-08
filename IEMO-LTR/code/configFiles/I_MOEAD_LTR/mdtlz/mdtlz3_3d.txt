@@ -1,0 +1,13 @@
+algorithm_name:moead_ltr
+problem_name:mdtlz3
+population_number:300
+variable_number:10
+objective_number:3
+max_evaluation:90000
+elicitationInterval:10
+stepSize:0.2
+inquiriesNum:10
+output_interval:5
+runs_number:21
+open_multithread:1
+thread_number:21

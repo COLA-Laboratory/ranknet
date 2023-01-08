@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EMOC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EMOC">
+				<Option output="/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/EMOC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gylai/Desktop/EMOCPP/EMOC-server/./src"/>
+					<Add directory="/home/gylai/Desktop/EMOCPP/EMOC-server/./vendor"/>
+					<Add directory="/home/gylai/anaconda3/envs/tf_cpu/include/python3.7m"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 EMOC"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EMOC/fast">
+				<Option output="/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/EMOC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gylai/Desktop/EMOCPP/EMOC-server/./src"/>
+					<Add directory="/home/gylai/Desktop/EMOCPP/EMOC-server/./vendor"/>
+					<Add directory="/home/gylai/anaconda3/envs/tf_cpu/include/python3.7m"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 EMOC/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/gylai/Desktop/EMOCPP/EMOC-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/algorithm.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/algorithm.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/algorithm_head_collect.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/ens_moead/ens_moead.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/ens_moead/ens_moead.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/hype/hype.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/hype/hype.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/ibea/ibea.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/ibea/ibea.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/ibea_ltr/ibea_ltr.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/ibea_ltr/ibea_ltr.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/iemod/iemod.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/iemod/iemod.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/meta_nsga2/meta_nsga2.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/meta_nsga2/meta_nsga2.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead/moead.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead/moead.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead_de/moead_de.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead_de/moead_de.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead_dra/moead_dra.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead_dra/moead_dra.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead_frrmab/moead_frrmab.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead_frrmab/moead_frrmab.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead_gra/moead_gra.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead_gra/moead_gra.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead_ira/moead_ira.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead_ira/moead_ira.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead_ltr/moead_ltr.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/moead_ltr/moead_ltr.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/nemo_0/nemo_0.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/nemo_0/nemo_0.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/nsga2/nsga2.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/nsga2/nsga2.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/nsga2_ltr/nsga2_ltr.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/nsga2_ltr/nsga2_ltr.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/plvf/plvf.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/plvf/plvf.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/r2_ibea_ltr/r2_ibea_ltr.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/r2_ibea_ltr/r2_ibea_ltr.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/smsemoa/smsemoa.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/smsemoa/smsemoa.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/spea2/spea2.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/algorithms/spea2/spea2.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/PyThreadStateLock.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/file.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/file.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/global.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/global.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/individual.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/individual.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/nd_sort.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/nd_sort.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/tournament_selection.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/tournament_selection.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/uniform_point.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/uniform_point.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/utility.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/core/utility.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/main.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/metric/gd.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/metric/gd.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/metric/hv.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/metric/hv.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/metric/igd.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/metric/igd.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/metric/spacing.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/metric/spacing.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/operator/de.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/operator/de.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/operator/mutation.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/operator/mutation.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/operator/sbx.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/operator/sbx.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/correlated_500_knapsack.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/correlated_500_knapsack.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/dtlz.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/dtlz.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/mdtlz.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/mdtlz.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/minus_dtlz.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/minus_dtlz.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/problem.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/problem.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/problem_head_collect.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/uf.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/uf.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/wfg.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/wfg.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/zdt.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/src/problem/zdt.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/vendor/lpsolve/lp_lib.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/vendor/random/random.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/vendor/random/random.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/vendor/wfg/iwfg.cpp">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/vendor/wfg/iwfg.h">
+			<Option target="EMOC"/>
+		</Unit>
+		<Unit filename="/home/gylai/Desktop/EMOCPP/EMOC-server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

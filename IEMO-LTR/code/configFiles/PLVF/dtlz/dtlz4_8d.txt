@@ -1,0 +1,13 @@
+algorithm_name:plvf
+problem_name:dtlz4
+population_number:224
+variable_number:17
+objective_number:8
+max_evaluation:112000
+elicitationInterval:25
+stepSize:0.5
+inquiriesNum:10
+output_interval:5
+runs_number:21
+open_multithread:1
+thread_number:21

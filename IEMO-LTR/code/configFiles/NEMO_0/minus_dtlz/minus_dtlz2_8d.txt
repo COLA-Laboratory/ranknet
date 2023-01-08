@@ -1,0 +1,12 @@
+algorithm_name:nemo_0
+problem_name:minus_dtlz2
+population_number:224
+variable_number:17
+objective_number:8
+max_evaluation:112000
+askTime:10
+inquiriesNum:10
+output_interval:5
+runs_number:21
+open_multithread:1
+thread_number:21

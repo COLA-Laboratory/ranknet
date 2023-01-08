@@ -1,0 +1,6 @@
+algorithm_name:nsga2
+problem_name:dtlz5
+population_number:100
+variable_number:12
+objective_number:3
+max_evaluation:25000
